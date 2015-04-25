@@ -1,5 +1,5 @@
 # Dub-Siren-Files
-Code and laser cutter files for a Dub Siren I made, with basic Tape Echo simulator
+Code, manual and laser cutter files for a Dub Siren I made, with basic Tape Echo simulator
 
 example video - https://www.youtube.com/watch?v=VJ9FtiL48HY
 
