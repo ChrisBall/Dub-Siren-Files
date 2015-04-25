@@ -15,7 +15,8 @@
 ![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/PartsDiagram.png "Features and Parts")
 
 1. DC Power Jack
-...This dub siren uses an Arduino Due (http://www.arduino.cc/en/Main/ArduinoBoardDue) . The recommended input voltage is 7-12V. The dub siren will consume approx 65mA current at 12V.
+
+---This dub siren uses an Arduino Due (http://www.arduino.cc/en/Main/ArduinoBoardDue) . The recommended input voltage is 7-12V. The dub siren will consume approx 65mA current at 12V.
 
 ### 3. Using
 
