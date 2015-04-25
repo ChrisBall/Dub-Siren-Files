@@ -58,11 +58,16 @@
    Sawtooth Wave
 
 10. Scale Lock Trigger
-   While pressed, this button will lock the main oscillator frequency to the nearest chromatic pitch on a logarithmic scale, referenced to A4 = 440 Hz.
+   While pressed, this button will lock the main oscillator frequency to the nearest note on a chromatic scale, referenced to A4 = 440 Hz.
 
 11. Main Oscillator Trigger
 
    While pressed, the main oscillator will play.
+
+12. Line Output
+
+   This output should be connected to an amplifier; never directly to a loudspeaker or headphones, or you risk damaging the DAC on the Arduino Due.  
+   If you suspect you have damaged the DAC, there is a spare one that can be used instead. Use the contact section to get help with this.
 
 
 ### 3. Signal Chain Diagram
