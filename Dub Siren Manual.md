@@ -12,7 +12,7 @@
 
 ### 2. Features and Parts
 
-![alt text](http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg "Features and Parts")
+![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/PartsDiagram.png "Features and Parts")
 
 ### 3. Using
 
