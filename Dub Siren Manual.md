@@ -4,8 +4,9 @@
 
 1. Introduction
 2. Features and Parts
-3. Using
-4. Contact
+3. Signal Chain Diagram
+4. Using
+5. Contact
 
 ### 1. Introduction
 
@@ -17,11 +18,58 @@
 1. DC Power Jack
 
    This dub siren uses an Arduino Due (http://www.arduino.cc/en/Main/ArduinoBoardDue) . The recommended input voltage is 7-12V. The dub siren will consume approx 65mA current at 12V.  
-   Line break test.
 
-### 3. Using
+2. Delay Indicator LED
+
+   This LED flashes in time with the delay loop, for tempo matching purposes.
+
+3. Main Output Volume Control
+
+   This potentiometer control the main volume of the line output.
+
+4. Feedback Level Control
+
+   Feedback from the delay loop is controlled with this potentiometer: from 0 - 150%. 
+
+5. Delay Access Speed COntrol
+
+   This potentiometer controls the read/write speed from/to the delay buffer, from slow to fast.
+
+6. Main Frequency Control
+
+   This potentiometer controls the frequency of the main oscillator.
+
+7. Main Waveform Control
+
+   This switch controls the waveform being used by the main oscillator. There are three choices, from top to bottom:  
+   Sine Wave  
+   Square Wave  
+   Sawtooth Wave
+
+8. Modulation Frequency Control
+
+   This potentiometer controls the frequency of the modulation oscillator.
+
+9. Main Waveform Control
+
+   This switch controls the waveform being used by the modulation oscillator. There are three choices, from top to bottom:  
+   Sine Wave  
+   Square Wave  
+   Sawtooth Wave
+
+10. Scale Lock Trigger
+   While pressed, this button will lock the main oscillator frequency to the nearest chromatic pitch on a logarithmic scale, referenced to A4 = 440 Hz.
+
+11. Main Oscillator Trigger
+
+   While pressed, the main oscillator will play.
 
 
-### 4. Contact
+### 3. Signal Chain Diagram
+
+
+### 4. Using
+
+### 5. Contact
 
 
