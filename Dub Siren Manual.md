@@ -74,7 +74,7 @@ Congratulations on purchasing your very own Arduino Due dub siren! It will meet 
 
 ### 3. Signal Chain Diagram
 
-![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/Images/SignalChainDiagram.png "Signal Chain")
+![alt text](/Images/SignalChainDiagram.png "Signal Chain")
 
 ### 4. Using
 
