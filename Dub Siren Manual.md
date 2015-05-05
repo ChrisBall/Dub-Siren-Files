@@ -11,9 +11,11 @@
 
 ### 1. Introduction
 
+Congratulations on purchasing your very own Arduino Due dub siren! It will meet all of your most basic synthesiser requirements (probably).
 
 ### 2. Features and Parts
 
+![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/Images/PartsDiagram.png "Features and Parts")
 
 1. DC Power Jack
 
@@ -31,7 +33,7 @@
 
    Feedback from the delay loop is controlled with this potentiometer: from 0 - 150%. 
 
-5. Delay Access Speed COntrol
+5. Delay Access Speed Control
 
    This potentiometer controls the read/write speed from/to the delay buffer, from slow to fast.
 
@@ -72,11 +74,18 @@
 
 ### 3. Signal Chain Diagram
 
+![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/Images/SignalChainDiagram.png "Signal Chain")
 
 ### 4. Using
 
+Tips for using this synthesiser would go here, but the best way? Just have at it.
+
 ### 5. Schematic
 
+
+
 ### 6. Contact
+
+
 
 
