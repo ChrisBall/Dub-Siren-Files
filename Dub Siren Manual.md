@@ -78,8 +78,6 @@ Congratulations on purchasing your very own Arduino Due dub siren! It will meet 
 
 ### 4. Using
 
-Tips for using this synthesiser would go here, but the best way? Just have at it.
-
 ### 5. Schematic
 
 

@@ -224,7 +224,7 @@ void TC4_Handler()
   if((BUTTONSTATES[0]==2)||(BUTTONSTATES[1]==2)||(FADE>0)){
     //MOD OSC--------------------------------------------------------------------------------
     int modval=0;
-    modIter+=POT1<<5;                    //mod rate: tweak as necessary
+    modIter+=(NOTELOOKUP[POT1]-65536)>>4;                    //mod rate: tweak as necessary
     modIter%=SINLOOKUPSIZE<<16;  
     if(BUTTONSTATES[2]==2){                                          //MOD SINE
       modval=getBufInterp(SINLOOKUP,SINLOOKUPSIZE,modIter);   
@@ -267,7 +267,7 @@ void TC4_Handler()
     }
 
     //ASR--------------------------------------------------------------------------------------
-    if((FADE<FADEMAX)&&(BUTTONSTATES[0]==2)){
+    if((FADE<FADEMAX)&&((BUTTONSTATES[0]==2)||(BUTTONSTATES[1]==2))){
       FADE++;
     }else{
       FADE--;
@@ -312,7 +312,6 @@ int getBufInterp(short int* ARRAYINPUT, int BUFFSIZE, unsigned int INDEX){
     return linInterp(ARRAYINPUT[LOWER%BUFFSIZE], ARRAYINPUT[(LOWER+1)%BUFFSIZE], INDEX%65536);
   }
 }
-//SETBUFINTERP?
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
