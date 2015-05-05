@@ -2,7 +2,7 @@
 
 ### Contents
 
-1. Introduction
+1. [Introduction](/Dub%20Siren%20Manual.md#1-introduction "Introduction")
 2. Features and Parts
 3. Signal Chain Diagram
 4. Using
