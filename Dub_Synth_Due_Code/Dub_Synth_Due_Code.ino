@@ -221,7 +221,7 @@ void TC4_Handler()
     modIter=0;
   }
   
-  if((BUTTONSTATES[0]==2)||(FADE>0)){
+  if((BUTTONSTATES[0]==2)||(BUTTONSTATES[1]==2)||(FADE>0)){
     //MOD OSC--------------------------------------------------------------------------------
     int modval=0;
     modIter+=POT1<<5;                    //mod rate: tweak as necessary
@@ -244,8 +244,7 @@ void TC4_Handler()
     
     //MAIN OSC--------------------------------------------------------------------------------
     
-    //scale function-------------------------------------------------------------------------------
-    if(BUTTONSTATES[1]==2){
+    if(BUTTONSTATES[1]==2){      //scale function
       iter+=NOTELOOKUPSCALE[POT0];
     }else{
       iter+=NOTELOOKUP[POT0];

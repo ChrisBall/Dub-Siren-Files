@@ -6,7 +6,8 @@
 2. Features and Parts
 3. Signal Chain Diagram
 4. Using
-5. Contact
+5. Schematic
+6. Contact
 
 ### 1. Introduction
 
@@ -59,7 +60,7 @@
 
 10. Scale Lock Trigger
 
-   While pressed, this button will lock the main oscillator frequency to the nearest note on a chromatic scale, referenced to A4 = 440 Hz.
+   While pressed, the main oscillator will play, and the main oscillator frequency will be locked to the nearest note on a chromatic scale, referenced to A4 = 440 Hz.
 
 11. Main Oscillator Trigger
 
@@ -72,9 +73,12 @@
 
 ### 3. Signal Chain Diagram
 
+![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/SignalChainDiagram.png "Signal Chain")
 
 ### 4. Using
 
-### 5. Contact
+### 5. Schematic
+
+### 6. Contact
 
 
