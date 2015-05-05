@@ -2,12 +2,12 @@
 
 ### Contents
 
-1. [Introduction](/Dub%20Siren%20Manual.md#1-introduction "Introduction")
-2. Features and Parts
-3. Signal Chain Diagram
-4. Using
-5. Schematic
-6. Contact
+1. [Introduction](/Dub%20Siren%20Manual.md#1-introduction)
+2. [Features and Parts](/Dub%20Siren%20Manual.md#1-features-and-parts)
+3. [Signal Chain Diagram](/Dub%20Siren%20Manual.md#1-signal-chain-diagram)
+4. [Using](/Dub%20Siren%20Manual.md#1-using)
+5. [Schematic](/Dub%20Siren%20Manual.md#1-schematic)
+6. [Contact](/Dub%20Siren%20Manual.md#1-contact)
 
 ### 1. Introduction
 
