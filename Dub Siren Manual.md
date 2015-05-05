@@ -15,7 +15,7 @@ Congratulations on purchasing your very own Arduino Due dub siren! It will meet 
 
 ### 2. Features and Parts
 
-![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/Images/PartsDiagram.png "Features and Parts")
+![alt text](/Images/PartsDiagram.png "Features and Parts")
 
 1. DC Power Jack
 
