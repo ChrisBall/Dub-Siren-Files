@@ -14,7 +14,7 @@
 
 ### 2. Features and Parts
 
-![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/PartsDiagram.png "Features and Parts")
+![alt text](/PartsDiagram.png "Features and Parts")
 
 1. DC Power Jack
 
