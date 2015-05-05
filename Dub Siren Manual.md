@@ -3,11 +3,11 @@
 ### Contents
 
 1. [Introduction](/Dub%20Siren%20Manual.md#1-introduction)
-2. [Features and Parts](/Dub%20Siren%20Manual.md#1-features-and-parts)
-3. [Signal Chain Diagram](/Dub%20Siren%20Manual.md#1-signal-chain-diagram)
-4. [Using](/Dub%20Siren%20Manual.md#1-using)
-5. [Schematic](/Dub%20Siren%20Manual.md#1-schematic)
-6. [Contact](/Dub%20Siren%20Manual.md#1-contact)
+2. [Features and Parts](/Dub%20Siren%20Manual.md#2-features-and-parts)
+3. [Signal Chain Diagram](/Dub%20Siren%20Manual.md#3-signal-chain-diagram)
+4. [Using](/Dub%20Siren%20Manual.md#4-using)
+5. [Schematic](/Dub%20Siren%20Manual.md#5-schematic)
+6. [Contact](/Dub%20Siren%20Manual.md#6-contact)
 
 ### 1. Introduction
 
