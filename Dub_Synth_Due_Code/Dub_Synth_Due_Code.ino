@@ -280,7 +280,7 @@ void TC4_Handler()
   
   //delay,feedback,filtering-----------
   pDelayWriteIndex=delayWriteIndex;                                                             //store the previous index (for filling in the gaps later)
-  delayWriteIndex+=POT2<<9;                                                                     //increase the index by the specified amount, to the 'oldest' sample (should be from a nice lookup)
+  delayWriteIndex+=POT2<<9;                                                                     //increase the index by the specified amount, to the 'oldest' sample
   
   //crappy filtering - take a equal mix of current and last sample (2 tap rectangular moving average filter - good for high frequency clicks but not very noticeable otherwise)
   int oldsample=volumeMix4096(getBufInterp(DELAYBUFFER,MAXDELAYBUFFERSIZE,delayWriteIndex),getBufInterp(DELAYBUFFER,MAXDELAYBUFFERSIZE,pDelayWriteIndex),32768); //read oldest sample
