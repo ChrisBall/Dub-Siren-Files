@@ -14,7 +14,6 @@
 
 ### 2. Features and Parts
 
-![alt text](/PartsDiagram.png "Features and Parts")
 
 1. DC Power Jack
 
@@ -73,7 +72,6 @@
 
 ### 3. Signal Chain Diagram
 
-![alt text](https://github.com/ChrisBall/Dub-Siren-Files/blob/master/SignalChainDiagram.png "Signal Chain")
 
 ### 4. Using
 
