@@ -13,15 +13,15 @@ Farnell Order Code | Name | Quantity | Details
 
 ####Just the order codes (for copying/pasting):
 
-1760787
-2373467
-1782728
-9473386
-1440004
-1634623
-2250861
-2473171
-1097955
+|1760787|
+|2373467|
+|1782728|
+|9473386|
+|1440004|
+|1634623|
+|2250861|
+|2473171|
+|1097955|
 
 
 ####Other parts required that are not included in the above list:
