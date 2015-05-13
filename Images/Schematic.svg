@@ -17,7 +17,10 @@
    viewBox="0 0 443.394 497.942"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="D:\Users\Chris\Pictures\due test_schem.svg">
+   sodipodi:docname="Schematic.svg"
+   inkscape:export-filename="D:\Users\Chris\Documents\GitHub\Dub-Siren-Files\Images\Schematic.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata1511">
     <rdf:RDF>
@@ -42,12 +45,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-height="641"
      id="namedview1507"
      showgrid="false"
-     inkscape:zoom="0.53621337"
-     inkscape:cx="182.9584"
-     inkscape:cy="322.66574"
+     inkscape:zoom="2.1448535"
+     inkscape:cx="446.46308"
+     inkscape:cy="545.93131"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -6877,7 +6880,7 @@
         <text
            x="0"
            y="3.75"
-           id="text1505">Main Freq Osc. Sleect</text>
+           id="text1505">Main Freq Osc. Select</text>
       </g>
     </g>
   </g>
