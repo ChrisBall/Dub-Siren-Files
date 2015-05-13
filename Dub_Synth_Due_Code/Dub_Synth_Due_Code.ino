@@ -156,6 +156,7 @@ unsigned int pDelayWriteIndex=0;
 
 void setup()
 {
+  //Serial.begin(115200);   
   /* turn on the timer clock in the power management controller */
   pmc_set_writeprotect(false);
   pmc_enable_periph_clk(ID_TC4);
@@ -184,7 +185,15 @@ void setup()
 
 void loop()
 {
+  POT0 = analogRead(A0);  //frequency
+  POT1 = analogRead(A1);  //mod frequency
+  POT2 = analogRead(A2);  //delay  
+  POT3 = analogRead(A3);  //feedback
   
+//  Serial.print(POT0); Serial.print("\t");
+//  Serial.print(POT1); Serial.print("\t");
+//  Serial.print(POT2); Serial.print("\t");
+//  Serial.print(POT3); Serial.println("\t");
   
   if((delayWriteIndex<(20500<<16))||(POT2==0)){
     digitalWrite(LEDPIN,HIGH);
