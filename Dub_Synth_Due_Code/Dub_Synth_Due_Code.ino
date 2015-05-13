@@ -141,13 +141,13 @@ int64_t iter=0;
 int64_t modIter=0; 
 int out_DAC0;
 
-const byte BUTTONS[]={8,9,11,10,13,12};             //main trigger, drop trigger; mod sine on, mod saw on (else square); main sine on, main saw on (else square)
+const byte BUTTONS[]={8,9,11,10,13,12};             //main trigger, scale trigger; mod sine on, mod saw on (else square); main sine on, main saw on (else square)
 byte BUTTONSTATES[]={0,0,0,0,0,0};
 
 #define FADEMAX 512    //512 samples attack and release (sustain always 1)
 unsigned int FADE=0;    //used in ASR
 
-#define MAXDELAYBUFFERSIZE 41250  //nearly 1 second of delay
+#define MAXDELAYBUFFERSIZE 41000  //nearly 1 second of delay
 short DELAYBUFFER[MAXDELAYBUFFERSIZE];
 unsigned int delayWriteIndex=0; 
 unsigned int pDelayWriteIndex=0;
@@ -156,7 +156,6 @@ unsigned int pDelayWriteIndex=0;
 
 void setup()
 {
-  Serial.begin(9600);
   /* turn on the timer clock in the power management controller */
   pmc_set_writeprotect(false);
   pmc_enable_periph_clk(ID_TC4);
@@ -185,20 +184,7 @@ void setup()
 
 void loop()
 {
-  POT0 = analogRead(A1);  //frequency
-  POT1 = analogRead(A3);  //mod frequency
-  POT2 = analogRead(A0);  //delay  
-  POT3 = analogRead(A2);  //feedback
   
-//  Serial.print(POT0);
-//  Serial.print("\t");
-//  Serial.print(POT1);
-//  Serial.print("\t") ;
-//  Serial.print(POT2);
-//  Serial.print("\t") ;
-//  Serial.println(POT3);
-//  
-//  Serial.println(modval);
   
   if((delayWriteIndex<(20500<<16))||(POT2==0)){
     digitalWrite(LEDPIN,HIGH);
@@ -227,7 +213,7 @@ void TC4_Handler()
     modIter+=(NOTELOOKUP[POT1]-65536)>>4;                    //mod rate: tweak as necessary
     modIter%=SINLOOKUPSIZE<<16;  
     if(BUTTONSTATES[2]==2){                                          //MOD SINE
-      modval=getBufInterp(SINLOOKUP,SINLOOKUPSIZE,modIter);   
+      modval=getBufInterp(SINLOOKUP,SINLOOKUPSIZE,modIter);                         //interpolation may not be necessary?
     }else if(BUTTONSTATES[3]==2){                                    //MOD SAW
       modval=getBufInterp(SAWLOOKUP,SINLOOKUPSIZE,modIter);  
     }else{                                                           //MOD SQUARE
