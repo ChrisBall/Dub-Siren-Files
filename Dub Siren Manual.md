@@ -11,7 +11,7 @@
 
 ### 1. Introduction
 
-Congratulations on purchasing your very own Arduino Due dub siren! It will meet all of your most basic synthesiser requirements (probably).
+Congratulations on purchasing/making your very own Arduino Due dub siren! It will meet all of your most basic synthesiser requirements (probably).
 
 This kit uses an Arduino Due development board to generate sound. You can find out more about the Arduino Due here: [http://www.arduino.cc/en/Main/arduinoBoardDue](http://www.arduino.cc/en/Main/arduinoBoardDue).
 
