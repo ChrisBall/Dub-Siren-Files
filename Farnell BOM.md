@@ -39,3 +39,8 @@ Ribbon Cable 				(recycled from old IDE cables is fine)
 
 1 x A4 laser grade 3mm plywood, cut  	(most laser cutting services should be able to take the .svg files given)
 
+
+####Notes:
+
+The A10K Pots given in the list above have not yet been tested in situ.
+

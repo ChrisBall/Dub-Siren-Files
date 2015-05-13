@@ -78,12 +78,14 @@ Congratulations on purchasing your very own Arduino Due dub siren! It will meet 
 
 ### 4. Using
 
+
+
 ### 5. Schematic
 
-
+![alt text](/Images/Schematic.png "Schematic")
 
 ### 6. Contact
 
-
+chrisballprojects (at) gmail.com
 
 
