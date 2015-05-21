@@ -141,7 +141,7 @@ int64_t iter=0;
 int64_t modIter=0; 
 int out_DAC0;
 
-const byte BUTTONS[]={8,9,11,10,13,12};             //main trigger, scale trigger; mod sine on, mod saw on (else square); main sine on, main saw on (else square)
+const byte BUTTONS[]={8,9,10,11,12,13};             //main trigger, scale trigger; mod sine on, mod saw on (else square); main sine on, main saw on (else square)
 byte BUTTONSTATES[]={0,0,0,0,0,0};
 
 #define FADEMAX 512    //512 samples attack and release (sustain always 1)
@@ -193,7 +193,8 @@ void loop()
 //  Serial.print(POT0); Serial.print("\t");
 //  Serial.print(POT1); Serial.print("\t");
 //  Serial.print(POT2); Serial.print("\t");
-//  Serial.print(POT3); Serial.println("\t");
+//  Serial.print(POT3); Serial.print("\t");
+//  Serial.print(BUTTONSTATES[0]); Serial.println("\t");
   
   if((delayWriteIndex<(20500<<16))||(POT2==0)){
     digitalWrite(LEDPIN,HIGH);
