@@ -11,7 +11,7 @@
 
 ### 1. Introduction
 
-Congratulations on purchasing/making your very own Arduino Due dub siren! It will meet all of your most basic synthesiser requirements (probably).
+Congratulations on purchasing/making your very own Arduino Due dub siren! It will meet all of your most basic synthesiser requirements.
 
 This kit uses an Arduino Due development board to generate sound. You can find out more about the Arduino Due here: [http://www.arduino.cc/en/Main/arduinoBoardDue](http://www.arduino.cc/en/Main/arduinoBoardDue).
 
@@ -25,7 +25,7 @@ The main oscillator generates frequencies from 55Hz to 3520 HZ. This corresponds
 
 #####1. DC Power Jack
 
-   This dub siren uses an Arduino Due (http://www.arduino.cc/en/Main/ArduinoBoardDue) . The recommended input voltage is 7-12V. The dub siren will consume approx 65mA current at 12V.  
+   This dub siren uses an Arduino Due (http://www.arduino.cc/en/Main/ArduinoBoardDue) . The recommended input voltage is 7-12V. The dub siren will consume approx 65mA current at 12V. The latest version also includes a USB port where the Due can take a 5V supply.
 
 #####2. Delay Indicator LED
 
