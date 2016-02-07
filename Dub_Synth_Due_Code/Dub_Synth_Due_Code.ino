@@ -147,7 +147,7 @@ byte BUTTONSTATES[]={0,0,0,0,0,0};
 #define FADEMAX 512    //512 samples attack and release (sustain always 1)
 unsigned int FADE=0;    //used in ASR
 
-#define MAXDELAYBUFFERSIZE 41000  //nearly 1 second of delay
+#define MAXDELAYBUFFERSIZE 40000  //nearly 1 second of delay
 short DELAYBUFFER[MAXDELAYBUFFERSIZE];
 unsigned int delayWriteIndex=0; 
 unsigned int pDelayWriteIndex=0;
